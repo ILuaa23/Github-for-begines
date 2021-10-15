@@ -1,1 +1,38 @@
+Pattern of BugReports
 
+*ID
+*Title (what? where? under what conditions?)
+Summary
+Project
+Component
+Build version
+*Steps to reproduce
+*Expected result
+*Actual result
+Severity: blocker/critical/major/minor/trivial
+Priority: low/medium/high
+*Environment: OS: version, bit depth; internet: wi-fi/3G/4G, browser: version, and other
+Status
+Author
+Assigned to
+*Attachment
+
+=========================
+
+Структура баг-репорта
+
+* - Обязательные атрибуты баг-репорта
+
+Id (проставляется баг-трекинговой системой автоматически)
+Заголовок
+Подробное описание
+Шаги воспроизведения
+Ожидаемый результат
+Фактический результат
+Серьезность
+Приоритет
+Окружение
+Статус
+Автор
+На кого назначен
+Прикрепленные файлы: скриншоты, скринкасты
