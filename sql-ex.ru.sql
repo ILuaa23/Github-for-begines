@@ -19,15 +19,7 @@ where ((cd='12x' or cd='24x') and (price < 600))
 FROM Product join Laptop on product.model = laptop.model
 WHERE Laptop.hd >= 10
 
-
-
-
-
-
-
-
-
-8.select distinct product.maker from product 
+7.select distinct product.maker from product 
   where product.type = 'PC' and
   product.maker not in (select maker from product
   where product.type = 'laptop')
